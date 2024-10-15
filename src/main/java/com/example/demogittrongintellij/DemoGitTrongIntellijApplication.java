@@ -8,6 +8,7 @@ public class DemoGitTrongIntellijApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(DemoGitTrongIntellijApplication.class, args);
+        System.out.println("Chạy thành công!");
     }
 
 }
