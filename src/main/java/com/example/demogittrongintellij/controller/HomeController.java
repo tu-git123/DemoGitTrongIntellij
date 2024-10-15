@@ -15,4 +15,8 @@ public class HomeController {
     public String banHang() {
         return "ban_hang";
     }
+    @GetMapping("/tai-khoan")
+    public String taiKhoan() {
+        return "tai_khoan";
+    }
 }
